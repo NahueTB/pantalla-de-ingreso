@@ -8,18 +8,22 @@ body{
     padding: 20px;
     border-radius: 1rem;
     background-color: #d3d3d4;
-  }
+}
 
-  .form-label{
+.form-label{
     font-weight: bold;
     
-  }
+}
 
-  .botones{
+.botones{
     margin: auto;
     
-  }
+}
 
-  #registro{
+#registro{
     
-  }
+}
+
+#error {
+    color: red;
+}
