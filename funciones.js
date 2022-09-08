@@ -31,7 +31,10 @@ function validarRegistro() {
     let captcha = "V4l1d4r R3g15tr0";
 
     if (pass1 == pass2 && edad >= EDAD_MINIMA && lblcaptcha == captcha) {
-        datosUsuarios.usuario = 
+        alert("Bienvenido");
+        datosUsuarios.usuario = usr;
+        datosUsuarios.password = pass1;
+
     } else {
         alert("Revise los datos ingresados e intente nuevamente.");
     }
