@@ -3,8 +3,7 @@ var datosUsuarios = {
     password: '',
     nombre: '',
     apellido: '',
-    edad: '',
-    profesion: ''
+    edad: ''
 }
 
 
@@ -26,14 +25,20 @@ function validarRegistro() {
     let pass1 = document.getElementById('pass').value;
     let pass2 = document.getElementById('pass2').value;
     let edad = document.getElementById('edad').value;
+    let nombre = document.getElementById('nombre').value;
+    let mail = document.getElementById('mail').value;
     let lblcaptcha = document.getElementById('captcha').value;
 
     let captcha = "V4l1d4r R3g15tr0";
 
     if (pass1 == pass2 && edad >= EDAD_MINIMA && lblcaptcha == captcha) {
-        alert("Bienvenido");
+
         datosUsuarios.usuario = usr;
         datosUsuarios.password = pass1;
+        datosUsuarios.nombre = nombre;
+        datosUsuarios.apellido = apellido;
+        datosUsuarios.mail = mail;
+        datosUsuarios.edad = edad;
 
     } else {
         alert("Revise los datos ingresados e intente nuevamente.");
