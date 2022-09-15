@@ -32,7 +32,6 @@ function validarRegistro() {
     let apellido = document.getElementById('apellido').value;
     let mail = document.getElementById('mail').value;
     let lblcaptcha = document.getElementById('captcha').value;
-
     let captcha = "V4l1d4r R3g15tr0";
 
     if ((pass1 == pass2) && (edad >= EDAD_MINIMA) && (lblcaptcha == captcha)) {
