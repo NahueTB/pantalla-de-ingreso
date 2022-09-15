@@ -41,7 +41,7 @@ function validarRegistro() {
         datosUsuarios.apellido = apellido;
         datosUsuarios.mail = mail;
         datosUsuarios.edad = edad;
-        alert("biena hi");
+        alert("Registro Exitoso");
     } else {
         alert("Revise los datos ingresados e intente nuevamente.");
     }
